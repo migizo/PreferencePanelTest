@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="DRtpzz" name="PreferencePanelTest" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="EKobyG" name="PreferencePanelTest">
+    <GROUP id="{CBB1AD59-E77B-C60B-E9A9-471955EF865F}" name="Source">
+      <GROUP id="{EDB9CE08-F312-7DD6-B32D-DE5856DFC635}" name="Images">
+        <FILE id="oHAo7U" name="Image1.h" compile="0" resource="0" file="Source/Images/Image1.h"/>
+        <FILE id="VCSDKb" name="Image2.h" compile="0" resource="0" file="Source/Images/Image2.h"/>
+        <FILE id="EvIEcG" name="Image3.h" compile="0" resource="0" file="Source/Images/Image3.h"/>
+      </GROUP>
+      <FILE id="anWBZW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="BsQoMF" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="og7Kp4" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="VELy8K" name="SimplePreferencePanel.h" compile="0" resource="0"
+            file="Source/SimplePreferencePanel.h"/>
+      <FILE id="R4hLV2" name="CustomPreferencePanel.h" compile="0" resource="0"
+            file="Source/CustomPreferencePanel.h"/>
+      <FILE id="zIOsG8" name="AnimationPreferencePanel.h" compile="0" resource="0"
+            file="Source/AnimationPreferencePanel.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PreferencePanelTest"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PreferencePanelTest"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
